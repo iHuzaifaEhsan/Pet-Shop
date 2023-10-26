@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+#topnav{
+    background-color: rgb(73, 73, 73);
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+#topnav button{
+    background-color: transparent;
+    border-color: white;
+    padding: 5px 20px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.instop{
+    display: flex;
+}
+
+.item6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.afternav{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(49, 43, 43);
+}
+
+.afternav img{
+    height: 100px;
+}
+
+.afternav input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding-left: 15px;
+    background-color: grey;
+    color: white;
+}
+
+.afternav input:focus{
+    border: none;
+}
+
+.afternav input::selection{
+    color: white;
+}
+
+.afternav input::placeholder{
+    color: white;
+}
+
+.cat{
+    width: 100%;
+    background-image: url('https://www.marshallspetzone.com/c/14-category_default/Cat.jpg');
+    background-repeat: repeat;
+    height: 200px;
+}
+
+.hire{
+    font-size: 18px;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 8px 25px;
+    transition: 0.5s;
+  }
+  .hire:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    background-color: gray;
+    transition: transform .2s;
+    border-radius: 30px;
+  }
+  .card:hover{
+    cursor: pointer;
+    transform: scale(1.1)
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .wow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  

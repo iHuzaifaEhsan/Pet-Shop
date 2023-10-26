@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    height: 100vh;
+    color: white;
+    background-image: url('img/homebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main{
+    padding: 60px;
+}
+
+h1{
+    font-style: italic;
+    font-size: 80px;
+}
+
+ul{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+}
+
+.nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+.btmbtn{
+    display: flex;
+    height: 40vh;
+    align-items: end;
+}
+
+.p{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 950px) {
+    body{
+        width: 100vw;
+        background-image: url('img/mob_files/dog-phone-background.jpg');
+    }
+    #main{
+        padding: 4vw;
+    }
+    h1{
+        font-size: 10vw;
+    }
+    ul{
+        margin-top: 10px;
+        display: flex;
+        gap: 0;
+        flex-wrap: wrap;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 1vw;
+    }
+    .p{
+        margin-top: 20px;
+        font-size: 30px;
+        color: rgb(212, 198, 198);
+    }
+    .btmbtn{
+        height: 50px;
+        gap: 30px;
+    }
+    .btmbtn div li a{
+        display: none;
+        height: 30px;
+    }
+    .p{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    
+  }
